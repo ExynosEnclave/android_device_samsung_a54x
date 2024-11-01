@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/essi
+DEVICE_PATH := device/samsung/a54x
 
 # Architecture
 TARGET_ARCH := arm64
@@ -37,8 +37,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := essi_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/essi
+TARGET_KERNEL_CONFIG := a54x_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/a54x
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -102,4 +102,4 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/samsung/essi/BoardConfigVendor.mk
+include vendor/samsung/a54x/BoardConfigVendor.mk

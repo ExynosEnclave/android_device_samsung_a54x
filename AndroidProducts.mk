@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_essi.mk
+    $(LOCAL_DIR)/lineage_a54x.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_essi-user \
-    lineage_essi-userdebug \
-    lineage_essi-eng
+    lineage_a54x-user \
+    lineage_a54x-userdebug \
+    lineage_a54x-eng
