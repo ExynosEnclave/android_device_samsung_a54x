@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A546B (essi)
+# Android device tree for samsung SM-A546B (a54x)
 
 ```
 #
